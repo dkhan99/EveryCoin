@@ -7,7 +7,25 @@
 		<key>OurCoin.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>17</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>37FDEC851FC6BC4400E97432</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37FDEC991FC6BC4400E97432</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37FDECA41FC6BC4400E97432</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

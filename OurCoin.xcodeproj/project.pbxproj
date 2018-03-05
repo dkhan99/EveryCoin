@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3700CC831FCF477200EE741A /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700CC821FCF477200EE741A /* ChatVC.swift */; };
+		3700CC851FD36CFA00EE741A /* ChannelListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700CC841FD36CFA00EE741A /* ChannelListVC.swift */; };
+		3700CC891FD3715A00EE741A /* CreateChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700CC881FD3715A00EE741A /* CreateChannelCell.swift */; };
+		3700CC8B1FD499AD00EE741A /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700CC8A1FD499AD00EE741A /* Messages.swift */; };
+		370DFBE51FCD56D200F2F0D9 /* MessagesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370DFBE41FCD56D200F2F0D9 /* MessagesData.swift */; };
+		3745BC891FC786F0008FE753 /* CoinbaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745BC881FC786F0008FE753 /* CoinbaseVC.swift */; };
+		3745BC8B1FC7FF12008FE753 /* UserTransactionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745BC8A1FC7FF12008FE753 /* UserTransactionData.swift */; };
+		3745BC8D1FC7FF28008FE753 /* UserCoinbaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745BC8C1FC7FF28008FE753 /* UserCoinbaseData.swift */; };
+		3745BC941FCA1113008FE753 /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745BC931FCA1113008FE753 /* MainScreenVC.swift */; };
+		3745BC961FCA736E008FE753 /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745BC951FCA736E008FE753 /* UISideMenuNavigationController.swift */; };
+		3745BC981FCBA2A1008FE753 /* MenuTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745BC971FCBA2A1008FE753 /* MenuTableVC.swift */; };
+		3745BC9A1FCBA93D008FE753 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745BC991FCBA93D008FE753 /* MenuTableViewCell.swift */; };
+		3745BC9C1FCBA952008FE753 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745BC9B1FCBA952008FE753 /* TransactionTableViewCell.swift */; };
+		3745BC9E1FCBA95E008FE753 /* WalletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745BC9D1FCBA95E008FE753 /* WalletTableViewCell.swift */; };
+		3749456E1FCBDF5F0065137C /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3749456D1FCBDF5F0065137C /* WalletViewController.swift */; };
+		374945721FCBDFB70065137C /* TransactionTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374945711FCBDFB70065137C /* TransactionTableVC.swift */; };
+		37D032E01FCBF8EA00EB075E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37D032DF1FCBF8EA00EB075E /* GoogleService-Info.plist */; };
+		37D032E21FCBF9D500EB075E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D032E11FCBF9D500EB075E /* Constants.swift */; };
 		37FDEC8A1FC6BC4400E97432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDEC891FC6BC4400E97432 /* AppDelegate.swift */; };
 		37FDEC8C1FC6BC4400E97432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDEC8B1FC6BC4400E97432 /* ViewController.swift */; };
 		37FDEC8F1FC6BC4400E97432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FDEC8D1FC6BC4400E97432 /* Main.storyboard */; };
@@ -14,6 +32,10 @@
 		37FDEC941FC6BC4400E97432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FDEC921FC6BC4400E97432 /* LaunchScreen.storyboard */; };
 		37FDEC9F1FC6BC4400E97432 /* OurCoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDEC9E1FC6BC4400E97432 /* OurCoinTests.swift */; };
 		37FDECAA1FC6BC4400E97432 /* OurCoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDECA91FC6BC4400E97432 /* OurCoinUITests.swift */; };
+		37FDECC61FC6BEEF00E97432 /* FBLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FDECC51FC6BEEF00E97432 /* FBLoginVC.swift */; };
+		4BA5CC43FCFBE70196A01EAF /* Pods_OurCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86727928A993FEC3E22446D /* Pods_OurCoinTests.framework */; };
+		508B1EF75A428248B73EA586 /* Pods_OurCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605FEFE0A4DBA8F774AF0878 /* Pods_OurCoinUITests.framework */; };
+		77B73A9E1941F5CCB90ECB7A /* Pods_OurCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E69C232BFF7192F88E3544CF /* Pods_OurCoin.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03F157A5234D414C3178B82C /* Pods-OurCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurCoinTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OurCoinTests/Pods-OurCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		14784A54E3BD03D560BD203D /* Pods-OurCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurCoinTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OurCoinTests/Pods-OurCoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		3700CC811FCEA4EA00EE741A /* OurCoin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OurCoin-Bridging-Header.h"; sourceTree = "<group>"; };
+		3700CC821FCF477200EE741A /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		3700CC841FD36CFA00EE741A /* ChannelListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListVC.swift; sourceTree = "<group>"; };
+		3700CC881FD3715A00EE741A /* CreateChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChannelCell.swift; sourceTree = "<group>"; };
+		3700CC8A1FD499AD00EE741A /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		370DFBE41FCD56D200F2F0D9 /* MessagesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesData.swift; sourceTree = "<group>"; };
+		3745BC881FC786F0008FE753 /* CoinbaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinbaseVC.swift; sourceTree = "<group>"; };
+		3745BC8A1FC7FF12008FE753 /* UserTransactionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTransactionData.swift; sourceTree = "<group>"; };
+		3745BC8C1FC7FF28008FE753 /* UserCoinbaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCoinbaseData.swift; sourceTree = "<group>"; };
+		3745BC931FCA1113008FE753 /* MainScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainScreenVC.swift; path = OurCoin/Controller/MainScreenVC.swift; sourceTree = SOURCE_ROOT; };
+		3745BC951FCA736E008FE753 /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = OurCoin/Controller/UISideMenuNavigationController.swift; sourceTree = SOURCE_ROOT; };
+		3745BC971FCBA2A1008FE753 /* MenuTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuTableVC.swift; path = OurCoin/Controller/MenuTableVC.swift; sourceTree = SOURCE_ROOT; };
+		3745BC991FCBA93D008FE753 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		3745BC9B1FCBA952008FE753 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		3745BC9D1FCBA95E008FE753 /* WalletTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewCell.swift; sourceTree = "<group>"; };
+		3749456D1FCBDF5F0065137C /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		374945711FCBDFB70065137C /* TransactionTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableVC.swift; sourceTree = "<group>"; };
+		37D032DF1FCBF8EA00EB075E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37D032E11FCBF9D500EB075E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		37FDEC861FC6BC4400E97432 /* OurCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OurCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FDEC891FC6BC4400E97432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37FDEC8B1FC6BC4400E97432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +90,15 @@
 		37FDECA51FC6BC4400E97432 /* OurCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OurCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FDECA91FC6BC4400E97432 /* OurCoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OurCoinUITests.swift; sourceTree = "<group>"; };
 		37FDECAB1FC6BC4400E97432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FDECC41FC6BE9E00E97432 /* OurCoin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OurCoin.entitlements; sourceTree = "<group>"; };
+		37FDECC51FC6BEEF00E97432 /* FBLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLoginVC.swift; sourceTree = "<group>"; };
+		605FEFE0A4DBA8F774AF0878 /* Pods_OurCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OurCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6806B16D53EE04C4C388C08D /* Pods-OurCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurCoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-OurCoin/Pods-OurCoin.release.xcconfig"; sourceTree = "<group>"; };
+		69CA89D80DBFDBBF26EFD784 /* Pods-OurCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurCoinUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OurCoinUITests/Pods-OurCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95F2B6167974F23904CBC049 /* Pods-OurCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurCoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OurCoin/Pods-OurCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		B86727928A993FEC3E22446D /* Pods_OurCoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OurCoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBEB703FB572E54AFF2C854 /* Pods-OurCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OurCoinUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OurCoinUITests/Pods-OurCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E69C232BFF7192F88E3544CF /* Pods_OurCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OurCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B73A9E1941F5CCB90ECB7A /* Pods_OurCoin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA5CC43FCFBE70196A01EAF /* Pods_OurCoinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +122,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508B1EF75A428248B73EA586 /* Pods_OurCoinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3745BC851FC77F1F008FE753 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3745BC8A1FC7FF12008FE753 /* UserTransactionData.swift */,
+				3745BC8C1FC7FF28008FE753 /* UserCoinbaseData.swift */,
+				370DFBE41FCD56D200F2F0D9 /* MessagesData.swift */,
+				3700CC8A1FD499AD00EE741A /* Messages.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3745BC861FC77F26008FE753 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				37FDEC901FC6BC4400E97432 /* Assets.xcassets */,
+				37FDEC8D1FC6BC4400E97432 /* Main.storyboard */,
+				37FDEC921FC6BC4400E97432 /* LaunchScreen.storyboard */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		3745BC871FC77F33008FE753 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3700CC841FD36CFA00EE741A /* ChannelListVC.swift */,
+				3700CC821FCF477200EE741A /* ChatVC.swift */,
+				37FDEC8B1FC6BC4400E97432 /* ViewController.swift */,
+				37FDEC891FC6BC4400E97432 /* AppDelegate.swift */,
+				374945711FCBDFB70065137C /* TransactionTableVC.swift */,
+				3749456D1FCBDF5F0065137C /* WalletViewController.swift */,
+				37FDECC51FC6BEEF00E97432 /* FBLoginVC.swift */,
+				3745BC931FCA1113008FE753 /* MainScreenVC.swift */,
+				3745BC951FCA736E008FE753 /* UISideMenuNavigationController.swift */,
+				3745BC971FCBA2A1008FE753 /* MenuTableVC.swift */,
+				3745BC881FC786F0008FE753 /* CoinbaseVC.swift */,
+				3745BC9F1FCBA963008FE753 /* CustomTableViewCells */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3745BC8E1FC95B70008FE753 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3745BC9F1FCBA963008FE753 /* CustomTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				3745BC991FCBA93D008FE753 /* MenuTableViewCell.swift */,
+				3745BC9B1FCBA952008FE753 /* TransactionTableViewCell.swift */,
+				3745BC9D1FCBA95E008FE753 /* WalletTableViewCell.swift */,
+				3700CC881FD3715A00EE741A /* CreateChannelCell.swift */,
+			);
+			path = CustomTableViewCells;
+			sourceTree = "<group>";
+		};
 		37FDEC7D1FC6BC4400E97432 = {
 			isa = PBXGroup;
 			children = (
+				3700CC811FCEA4EA00EE741A /* OurCoin-Bridging-Header.h */,
+				37D032E11FCBF9D500EB075E /* Constants.swift */,
 				37FDEC881FC6BC4400E97432 /* OurCoin */,
 				37FDEC9D1FC6BC4400E97432 /* OurCoinTests */,
 				37FDECA81FC6BC4400E97432 /* OurCoinUITests */,
 				37FDEC871FC6BC4400E97432 /* Products */,
+				8FD26BB9A1C3B8E2DB8AA8A1 /* Pods */,
+				83F018E8949D22BB9933BF06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +214,13 @@
 		37FDEC881FC6BC4400E97432 /* OurCoin */ = {
 			isa = PBXGroup;
 			children = (
-				37FDEC891FC6BC4400E97432 /* AppDelegate.swift */,
-				37FDEC8B1FC6BC4400E97432 /* ViewController.swift */,
-				37FDEC8D1FC6BC4400E97432 /* Main.storyboard */,
-				37FDEC901FC6BC4400E97432 /* Assets.xcassets */,
-				37FDEC921FC6BC4400E97432 /* LaunchScreen.storyboard */,
+				37D032DF1FCBF8EA00EB075E /* GoogleService-Info.plist */,
+				37FDECC41FC6BE9E00E97432 /* OurCoin.entitlements */,
 				37FDEC951FC6BC4400E97432 /* Info.plist */,
+				3745BC871FC77F33008FE753 /* Controller */,
+				3745BC861FC77F26008FE753 /* VIew */,
+				3745BC851FC77F1F008FE753 /* Model */,
+				3745BC8E1FC95B70008FE753 /* Other */,
 			);
 			path = OurCoin;
 			sourceTree = "<group>";
@@ -125,6 +243,29 @@
 			path = OurCoinUITests;
 			sourceTree = "<group>";
 		};
+		83F018E8949D22BB9933BF06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E69C232BFF7192F88E3544CF /* Pods_OurCoin.framework */,
+				B86727928A993FEC3E22446D /* Pods_OurCoinTests.framework */,
+				605FEFE0A4DBA8F774AF0878 /* Pods_OurCoinUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FD26BB9A1C3B8E2DB8AA8A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95F2B6167974F23904CBC049 /* Pods-OurCoin.debug.xcconfig */,
+				6806B16D53EE04C4C388C08D /* Pods-OurCoin.release.xcconfig */,
+				03F157A5234D414C3178B82C /* Pods-OurCoinTests.debug.xcconfig */,
+				14784A54E3BD03D560BD203D /* Pods-OurCoinTests.release.xcconfig */,
+				BEBEB703FB572E54AFF2C854 /* Pods-OurCoinUITests.debug.xcconfig */,
+				69CA89D80DBFDBBF26EFD784 /* Pods-OurCoinUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +273,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FDECAE1FC6BC4400E97432 /* Build configuration list for PBXNativeTarget "OurCoin" */;
 			buildPhases = (
+				38C02C5DBFFCFD27A1DF9A6E /* [CP] Check Pods Manifest.lock */,
 				37FDEC821FC6BC4400E97432 /* Sources */,
 				37FDEC831FC6BC4400E97432 /* Frameworks */,
 				37FDEC841FC6BC4400E97432 /* Resources */,
+				68178607E7E7D6DE08866BE2 /* [CP] Embed Pods Frameworks */,
+				F0897202358D564EEBAA2B3A /* [CP] Copy Pods Resources */,
+				3745BC821FC74C47008FE753 /* Preparation for Distribution */,
 			);
 			buildRules = (
 			);
@@ -149,9 +294,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FDECB11FC6BC4400E97432 /* Build configuration list for PBXNativeTarget "OurCoinTests" */;
 			buildPhases = (
+				5251D63FAD70417E771205D4 /* [CP] Check Pods Manifest.lock */,
 				37FDEC961FC6BC4400E97432 /* Sources */,
 				37FDEC971FC6BC4400E97432 /* Frameworks */,
 				37FDEC981FC6BC4400E97432 /* Resources */,
+				2569B4B3C37529395304589C /* [CP] Embed Pods Frameworks */,
+				3975E766D2B342340E174EEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +315,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FDECB41FC6BC4400E97432 /* Build configuration list for PBXNativeTarget "OurCoinUITests" */;
 			buildPhases = (
+				1AA7B321CA4141A7F1E32207 /* [CP] Check Pods Manifest.lock */,
 				37FDECA11FC6BC4400E97432 /* Sources */,
 				37FDECA21FC6BC4400E97432 /* Frameworks */,
 				37FDECA31FC6BC4400E97432 /* Resources */,
+				64D314182CC86C1A5F89605B /* [CP] Embed Pods Frameworks */,
+				95120F167B0E4780A839067C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +344,13 @@
 				TargetAttributes = {
 					37FDEC851FC6BC4400E97432 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					37FDEC991FC6BC4400E97432 = {
 						CreatedOnToolsVersion = 9.1;
@@ -233,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37FDEC941FC6BC4400E97432 /* LaunchScreen.storyboard in Resources */,
+				37D032E01FCBF8EA00EB075E /* GoogleService-Info.plist in Resources */,
 				37FDEC911FC6BC4400E97432 /* Assets.xcassets in Resources */,
 				37FDEC8F1FC6BC4400E97432 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +412,219 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AA7B321CA4141A7F1E32207 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OurCoinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2569B4B3C37529395304589C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OurCoinTests/Pods-OurCoinTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3745BC821FC74C47008FE753 /* Preparation for Distribution */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Preparation for Distribution";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "LINK_ROOT=${PODS_ROOT:+$PODS_ROOT/Plaid/ios}\ncp \"${LINK_ROOT:-$PROJECT_DIR}\"/LinkKit.framework/prepare_for_distribution.sh \"${CODESIGNING_FOLDER_PATH}\"/Frameworks/LinkKit.framework/prepare_for_distribution.sh\n\"${CODESIGNING_FOLDER_PATH}\"/Frameworks/LinkKit.framework/prepare_for_distribution.sh\n";
+		};
+		38C02C5DBFFCFD27A1DF9A6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OurCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3975E766D2B342340E174EEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OurCoinTests/Pods-OurCoinTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5251D63FAD70417E771205D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OurCoinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64D314182CC86C1A5F89605B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OurCoinUITests/Pods-OurCoinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68178607E7E7D6DE08866BE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OurCoin/Pods-OurCoin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${PODS_ROOT}/Plaid/ios/LinkKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/coinbase-official/coinbase_official.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinkKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/coinbase_official.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OurCoin/Pods-OurCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95120F167B0E4780A839067C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OurCoinUITests/Pods-OurCoinUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0897202358D564EEBAA2B3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OurCoin/Pods-OurCoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37FDEC821FC6BC4400E97432 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3700CC831FCF477200EE741A /* ChatVC.swift in Sources */,
+				37D032E21FCBF9D500EB075E /* Constants.swift in Sources */,
+				3745BC8D1FC7FF28008FE753 /* UserCoinbaseData.swift in Sources */,
+				3745BC891FC786F0008FE753 /* CoinbaseVC.swift in Sources */,
+				3745BC941FCA1113008FE753 /* MainScreenVC.swift in Sources */,
 				37FDEC8C1FC6BC4400E97432 /* ViewController.swift in Sources */,
+				3745BC8B1FC7FF12008FE753 /* UserTransactionData.swift in Sources */,
+				3745BC961FCA736E008FE753 /* UISideMenuNavigationController.swift in Sources */,
 				37FDEC8A1FC6BC4400E97432 /* AppDelegate.swift in Sources */,
+				3700CC8B1FD499AD00EE741A /* Messages.swift in Sources */,
+				3745BC981FCBA2A1008FE753 /* MenuTableVC.swift in Sources */,
+				374945721FCBDFB70065137C /* TransactionTableVC.swift in Sources */,
+				3745BC9E1FCBA95E008FE753 /* WalletTableViewCell.swift in Sources */,
+				370DFBE51FCD56D200F2F0D9 /* MessagesData.swift in Sources */,
+				37FDECC61FC6BEEF00E97432 /* FBLoginVC.swift in Sources */,
+				3745BC9C1FCBA952008FE753 /* TransactionTableViewCell.swift in Sources */,
+				3749456E1FCBDF5F0065137C /* WalletViewController.swift in Sources */,
+				3700CC851FD36CFA00EE741A /* ChannelListVC.swift in Sources */,
+				3745BC9A1FCBA93D008FE753 /* MenuTableViewCell.swift in Sources */,
+				3700CC891FD3715A00EE741A /* CreateChannelCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +788,31 @@
 		};
 		37FDECAF1FC6BC4400E97432 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F2B6167974F23904CBC049 /* Pods-OurCoin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = OurCoin/OurCoin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G94R8CT2V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/spencerpearlman/Downloads/itp344/OurCoin/FacebookSDKs-iOS-4.27.1/**",
+					"$(PROJECT_DIR)/Pods/Plaid/ios",
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.27.1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Plaid\"",
+					"/Users/spencerpearlman/Library/Developer/Xcode/DerivedData/OurCoin-avpkspzgokiibebdfabjadxduafc/Build/Products/Debug-iphonesimulator/coinbase-official/coinbase_official.framework/Headers",
+				);
 				INFOPLIST_FILE = OurCoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Spencer.OurCoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OurCoin/Other/OurCoin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +820,30 @@
 		};
 		37FDECB01FC6BC4400E97432 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6806B16D53EE04C4C388C08D /* Pods-OurCoin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = OurCoin/OurCoin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G94R8CT2V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/spencerpearlman/Downloads/itp344/OurCoin/FacebookSDKs-iOS-4.27.1/**",
+					"$(PROJECT_DIR)/Pods/Plaid/ios",
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.27.1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Plaid\"",
+					"/Users/spencerpearlman/Library/Developer/Xcode/DerivedData/OurCoin-avpkspzgokiibebdfabjadxduafc/Build/Products/Debug-iphonesimulator/coinbase-official/coinbase_official.framework/Headers",
+				);
 				INFOPLIST_FILE = OurCoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Spencer.OurCoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OurCoin/Other/OurCoin-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +851,7 @@
 		};
 		37FDECB21FC6BC4400E97432 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F157A5234D414C3178B82C /* Pods-OurCoinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +868,7 @@
 		};
 		37FDECB31FC6BC4400E97432 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14784A54E3BD03D560BD203D /* Pods-OurCoinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +885,7 @@
 		};
 		37FDECB51FC6BC4400E97432 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBEB703FB572E54AFF2C854 /* Pods-OurCoinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +901,7 @@
 		};
 		37FDECB61FC6BC4400E97432 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69CA89D80DBFDBBF26EFD784 /* Pods-OurCoinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
